@@ -5,3 +5,7 @@ function destructivelyAppendKitten(Ralph) {
   kittens.push("Ralph")
   return kittens
 }
+function destructivelyRemoveLastKitten(Garfield) {
+  kittens.pop("Garfield")
+  return kittens
+}

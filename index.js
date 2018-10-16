@@ -13,3 +13,7 @@ function destructivelyPrependKitten(Bob) {
   kittens.unshift("Bob")
   return kittens
 }
+function destructivelyRemoveFirstKitten(Milo) {
+  kittens.shift("Milo")
+  return kittens
+}
